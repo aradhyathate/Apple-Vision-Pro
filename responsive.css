@@ -1,0 +1,824 @@
+/* General Mobile and Tablet Styles */
+@media (max-width: 1024px) {
+
+    html,
+    body {
+        font-size: 14px;
+    }
+
+    /* Page Navigation */
+    #page nav {
+        width: 90vw;
+        padding: 0 15px;
+        height: 6vh;
+    }
+
+    #page nav h3 {
+        font-size: 1.5em;
+    }
+
+    #page nav button {
+        padding: 5px 15px;
+        font-size: 0.9em;
+    }
+
+    /* Page Videos */
+    #page video {
+        width: 100%;
+        left: 0;
+        transform: translateX(0);
+    }
+
+    /* Page Bottom Section (Introduction/Logo) */
+    #page-bottom {
+        width: 80%;
+        bottom: 10%;
+    }
+
+    #page-bottom h3 {
+        font-size: 1.2em;
+        margin-bottom: 0.8vw;
+    }
+
+    #page-bottom img {
+        width: 80%;
+    }
+
+    /* Page Titles */
+    #page1 h1,
+    #page2 h1 {
+        font-size: 6vw;
+        bottom: 15%;
+        text-align: center;
+        width: 90%;
+        left: 50%;
+        transform: translateX(-50%);
+        white-space: normal;
+    }
+
+    /* Page3 Adjustments */
+    #page3 img {
+        width: 80%;
+    }
+
+    #page3-upper {
+        width: 60%;
+        top: 8%;
+    }
+
+    #page3-upper img {
+        width: 90%;
+    }
+
+    #page3-upper-inner {
+        padding: 0px 40px;
+    }
+
+    #page3-upper-inner h3 {
+        font-size: 1.1em;
+    }
+
+    #page3 button {
+        padding: 12px 25px;
+        font-size: 1em;
+        bottom: 5%;
+    }
+
+    /* Page4 Content */
+    #center-page4 {
+        font-size: 3vw;
+        width: 90%;
+    }
+
+    /* Page5 - Two column layout to stack */
+    #page5 {
+        flex-direction: column;
+        height: auto;
+        padding: 5vw 0;
+    }
+
+    .left5,
+    .right5 {
+        width: 100%;
+        padding: 0 5vw;
+        text-align: center;
+    }
+
+    .left5 h1 {
+        font-size: 4vw;
+        position: static;
+        transform: none;
+        margin-bottom: 3vw;
+        text-align: center;
+    }
+
+    .right5 {
+        align-items: center;
+        padding-top: 3vw;
+    }
+
+    .right5 h3 {
+        font-size: 1.5em;
+        width: 100%;
+        margin-bottom: 2vw;
+    }
+
+    .right5 button {
+        padding: 8px 18px;
+        font-size: 1em;
+        margin-top: 1vw;
+    }
+
+    /* Page6 - Design section */
+    #page6 {
+        height: auto;
+        padding: 8vw 5vw;
+    }
+
+    #page6 h3 {
+        font-size: 1.8em;
+    }
+
+    #page6 h1 {
+        font-size: 3.5em;
+    }
+
+    #page6 p {
+        font-size: 1.1em;
+        width: 85%;
+    }
+
+    /* Page 8-13 (Scrolling Text) */
+    #page8 h1,
+    #page9 h1,
+    #page10 h1,
+    #page11 h1,
+    #page12 h1,
+    #page13 h1 {
+        width: 80%;
+        font-size: 2vw;
+        left: 50%;
+        right: auto;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+    /* Page14 - Two images section */
+    #page14 {
+        flex-direction: column;
+        height: auto;
+        padding: 5vw 0;
+    }
+
+    .left14,
+    .right14 {
+        width: 90%;
+        margin-bottom: 3vw;
+    }
+
+    .left14 img,
+    .right14 img {
+        width: 100%;
+        left: 0;
+    }
+
+    /* Page16 */
+    #page16 {
+        height: auto;
+        padding: 10vw 7vw 10vw 7vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    #page16 h2 {
+        width: 85%;
+        font-size: 1.5em;
+        margin-bottom: 5vw;
+        text-align: center;
+        position: static;
+        line-height: 1.5;
+    }
+
+    #page16 img {
+        height: auto;
+        width: 80%;
+        max-width: 600px;
+        margin-top: 0;
+        margin-bottom: 5vw;
+        display: block;
+    }
+
+    #page16 button {
+        padding: 10px 20px;
+        font-size: 1em;
+        margin-top: 0;
+        position: static;
+    }
+
+    /* Page17 - Technology section */
+    #page17 {
+        height: auto;
+        padding: 8vw 5vw;
+    }
+
+    #page17 h4 {
+        font-size: 1.8em;
+        margin-bottom: 1.5vw;
+    }
+
+    #page17 h1 {
+        font-size: 4em;
+        margin-bottom: 2.5vw;
+    }
+
+    #page17 p {
+        font-size: 1.2em;
+        width: 85%;
+    }
+
+    /* Page18 (Canvas micro-OLED) */
+    #page18 {
+        height: 100vh;
+        width: 100vw;
+        top: 0%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #page18 canvas {
+        width: 100%;
+        height: 100%;
+        max-width: 100%;
+        max-height: 100vh;
+        object-fit: contain;
+    }
+
+    /* Page19 */
+    #page19 {
+        height: auto;
+        padding: 5vw 5vw;
+        font-size: 1.2em;
+    }
+
+    #page19 h5 {
+        width: 90%;
+    }
+
+    /* Page20 (Spatial Audio) */
+    #center-page20 {
+        width: 90%;
+        height: auto;
+        bottom: 5%;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+        padding: 2vw;
+    }
+
+    #center-page20 h1 {
+        font-size: 2em;
+        margin-bottom: 1em;
+    }
+
+    #center-page20 p {
+        font-size: 1.1em;
+    }
+
+    /* Page 24 (Design Portrait) */
+    #page24 {
+        flex-direction: column;
+        height: auto;
+        padding: 5vw 0;
+    }
+
+    #page24-inside {
+        position: static;
+        width: 90%;
+        margin: 0 auto 5vw auto;
+        text-align: center;
+        font-size: 1.2em;
+    }
+
+    #page24-inside .div {
+        margin-bottom: 2vw;
+    }
+
+    #page24-inside .div h1 {
+        font-size: 1.5em;
+    }
+
+
+    #page24 img {
+        position: static;
+        width: 80%;
+        height: auto;
+        margin: 0 auto;
+        left: auto;
+    }
+
+    /* Page 25 (EyeSight Portrait) */
+    #page25 {
+        height: auto;
+        padding: 5vw 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #page25 img {
+        width: 90%;
+        height: auto;
+        margin-bottom: 3vw;
+    }
+
+    #page25 h1 {
+        position: static;
+        width: 90%;
+        font-size: 1.2em;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    /* Page 26, 27, 28 (Technology Text Sections) */
+    #page26,
+    #page27,
+    #page28 {
+        height: auto;
+        padding: 8vw 5vw;
+    }
+
+    #page26 h1,
+    #page27 h1,
+    #page28 h1 {
+        font-size: 2em;
+        margin-bottom: 2vw;
+    }
+
+    #page26 p,
+    #page27 p,
+    #page28 p {
+        font-size: 1.2em;
+        width: 85%;
+    }
+
+    #page28 button {
+        padding: 1em 1.2em;
+        font-size: 1em;
+        margin-top: 5vw;
+    }
+
+    /* Page29 (Values) */
+    #page29 {
+        height: auto;
+        padding: 8vw 5vw;
+    }
+
+    #page29 h1 {
+        font-size: 1.5em;
+        margin-bottom: 1em;
+    }
+
+    #page29 h2 {
+        font-size: 2.5em;
+        margin-bottom: 1.2em;
+    }
+
+    #page29 p {
+        font-size: 1.1em;
+        width: 85%;
+    }
+
+    #page29 button {
+        padding: 1em 1.2em;
+        font-size: 1em;
+        margin-top: 5vw;
+    }
+
+    /* Page30 (Legal/Footnotes) */
+    #page30 {
+        height: auto;
+        padding: 5vw 0;
+    }
+
+    #page30 ol {
+        position: static;
+        padding: 5vw;
+        height: auto;
+    }
+
+    #page30 li {
+        line-height: 1.8em;
+        margin-left: 5vw;
+        margin-right: 5vw;
+        font-size: 0.9em;
+        margin-bottom: 1em;
+    }
+
+    /* Page31 (Footer Links) */
+    #page31 {
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: auto;
+        padding: 5vw 0;
+        align-items: flex-start;
+        justify-content: space-around;
+    }
+
+    #page31 .list1,
+    #page31 .list2,
+    #page31 .list3,
+    #page31 .list4,
+    #page31 .list5 {
+        width: 30%;
+        min-width: 150px;
+        margin-bottom: 3vw;
+        text-align: left;
+        padding-left: 0;
+    }
+
+    #page31 ul {
+        align-items: flex-start;
+    }
+
+    #page31 li {
+        margin-top: 0.5em;
+    }
+
+    #page31 .span1,
+    #page31 .span2,
+    #page31 .span3,
+    #page31 .span4 {
+        margin-top: 1.5em;
+        display: block;
+        margin-bottom: 0.5em;
+    }
+
+    #page31 .span2,
+    #page31 .span3,
+    #page31 .span4 {
+        margin-left: 0;
+    }
+
+
+    /* Page32 (More ways to shop) */
+    #page32 {
+        height: auto;
+        padding: 2vw;
+        font-size: 0.9em;
+    }
+
+    /* Page33 (Copyright & Legal Links) */
+    #page33 {
+        height: auto;
+        padding: 2vw;
+    }
+
+    #inside-page33 {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    #page33 p,
+    #page33 span {
+        margin: 0.5vw 0 !important;
+        font-size: 0.8em;
+    }
+
+    #page33 .span6 {
+        margin-left: 0 !important;
+    }
+
+    /* Page34 (Breadcrumbs) */
+    #page34 {
+        height: auto;
+        padding: 2vw;
+        justify-content: center;
+    }
+
+    #page34 img {
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    #page34 span,
+    #page34 h4 {
+        font-size: 1em;
+        margin-left: 1vw;
+        margin-top: 0;
+    }
+}
+
+
+/* Specific Mobile Styles (smaller than 768px) */
+@media (max-width: 768px) {
+
+    html,
+    body {
+        font-size: 12px;
+    }
+
+    /* Page Navigation */
+    #page nav {
+        width: 95vw;
+        padding: 0 10px;
+        height: 5vh;
+    }
+
+    #page nav h3 {
+        font-size: 1.2em;
+    }
+
+    #page nav button {
+        padding: 3px 10px;
+        font-size: 0.8em;
+    }
+
+    /* Page Bottom Section (Introduction/Logo) */
+    #page-bottom {
+        width: 90%;
+        bottom: 5%;
+    }
+
+    #page-bottom h3 {
+        font-size: 1em;
+    }
+
+    #page-bottom img {
+        width: 90%;
+    }
+
+    /* Page Titles */
+    #page1 h1,
+    #page2 h1 {
+        font-size: 7vw;
+        bottom: 10%;
+        width: 95%;
+    }
+
+    /* Page3 Adjustments */
+    #page3 img {
+        width: 90%;
+    }
+
+    #page3-upper {
+        width: 80%;
+        top: 5%;
+    }
+
+    #page3-upper img {
+        width: 100%;
+    }
+
+    #page3-upper-inner {
+        padding: 0px 10px;
+        flex-direction: column;
+        height: auto;
+        bottom: -20%;
+    }
+
+    #page3-upper-inner h3 {
+        font-size: 0.9em;
+        margin-bottom: 1em;
+    }
+
+    #page3 button {
+        padding: 10px 20px;
+        font-size: 0.9em;
+        bottom: 3%;
+    }
+
+    /* Page4 Content */
+    #center-page4 {
+        font-size: 4vw;
+    }
+
+    /* Page5 */
+    .left5 h1 {
+        font-size: 5vw;
+        margin-bottom: 5vw;
+    }
+
+    .right5 h3 {
+        font-size: 1.2em;
+    }
+
+    /* Page6 */
+    #page6 h3 {
+        font-size: 1.5em;
+    }
+
+    #page6 h1 {
+        font-size: 3em;
+    }
+
+    #page6 p {
+        font-size: 1em;
+        width: 90%;
+    }
+
+    /* Page 8-13 (Scrolling Text) */
+    #page8 h1,
+    #page9 h1,
+    #page10 h1,
+    #page11 h1,
+    #page12 h1,
+    #page13 h1 {
+        width: 90%;
+        font-size: 2.5vw;
+    }
+
+    /* Page16 */
+    #page16 {
+        height: auto;
+        padding: 12vw 5vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    #page16 h2 {
+        width: 90%;
+        font-size: 1.2em;
+        margin-bottom: 5vw;
+        position: static;
+        line-height: 1.5;
+    }
+
+    #page16 img {
+        width: 90%;
+        height: auto;
+        max-width: 600px;
+        margin-bottom: 5vw;
+        position: static;
+        display: block;
+    }
+
+    #page16 button {
+        padding: 10px 20px;
+        font-size: 1em;
+        position: static;
+    }
+
+
+    /* Page17 */
+    #page17 h4 {
+        font-size: 1.5em;
+    }
+
+    #page17 h1 {
+        font-size: 3em;
+    }
+
+    #page17 p {
+        font-size: 1.1em;
+        width: 90%;
+    }
+
+    /* Page19 */
+    #page19 {
+        font-size: 1em;
+    }
+
+    /* Page20 (Spatial Audio) */
+    #center-page20 h1 {
+        font-size: 1.5em;
+    }
+
+    #center-page20 p {
+        font-size: 1em;
+    }
+
+    /* Page 24 */
+    #page24-inside {
+        font-size: 1em;
+    }
+
+    #page24-inside .div h1 {
+        font-size: 1.2em;
+    }
+
+    #page24 img {
+        width: 90%;
+    }
+
+    /* Page 25 */
+    #page25 h1 {
+        font-size: 1em;
+    }
+
+    /* Page 26, 27, 28 */
+    #page26 h1,
+    #page27 h1,
+    #page28 h1 {
+        font-size: 1.8em;
+    }
+
+    #page26 p,
+    #page27 p,
+    #page28 p {
+        font-size: 1.1em;
+        width: 90%;
+    }
+
+    /* Page29 */
+    #page29 h1 {
+        font-size: 1.2em;
+    }
+
+    #page29 h2 {
+        font-size: 2em;
+    }
+
+    #page29 p {
+        font-size: 1.1em;
+        width: 90%;
+    }
+
+    /* Page30 */
+    #page30 li {
+        font-size: 0.8em;
+        margin-left: 3vw;
+        margin-right: 3vw;
+    }
+
+    #page31 {
+        flex-direction: column;
+        height: auto;
+        padding: 10vw 0;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    #page31 .list1,
+    #page31 .list2,
+    #page31 .list3,
+    #page31 .list4,
+    #page31 .list5 {
+        width: 100%;
+        margin-bottom: 8vw;
+        text-align: left;
+        padding-left: 5vw;
+    }
+
+    #page31 ul {
+        align-items: flex-start;
+    }
+
+    #page31 li {
+        margin-top: 1em;
+        font-size: 0.8em;
+    }
+
+    #page31 .span1,
+    #page31 .span2,
+    #page31 .span3,
+    #page31 .span4 {
+        margin-top: 2em;
+        display: block;
+        margin-bottom: 1em;
+    }
+
+    #page31 .span2,
+    #page31 .span3,
+    #page31 .span4 {
+        margin-left: 0;
+    }
+
+
+    /* Page32 (More ways to shop) */
+    #page32 {
+        font-size: 0.8em;
+    }
+
+    /* Page33 (Copyright & Legal Links) */
+    #page33 p,
+    #page33 span {
+        font-size: 0.7em;
+    }
+}
+
+@media (max-width: 600px) and (orientation: landscape) {
+    #page-bottom {
+        bottom: 2%;
+        height: 15%;
+    }
+
+    #page-bottom h3 {
+        font-size: 0.8em;
+    }
+
+    #page-bottom img {
+        width: 70%;
+    }
+
+    #page nav {
+        height: 8vh;
+    }
+}
